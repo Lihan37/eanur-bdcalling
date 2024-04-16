@@ -1,5 +1,6 @@
 
 import './App.css'
+import Banner from './Banner'
 import Navbar from './Navbar'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     
     <div className='max-w-screen-2xl mx-auto'>
       <Navbar></Navbar>
-      
+      <Banner></Banner>
     </div>
     
   )
